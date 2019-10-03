@@ -1,0 +1,47 @@
+.mat-grid-tile{
+  margin: 10px;
+  border: 1px solid #999;
+}
+.outerwrap{
+  background: #EFEFEF;
+  padding: 40px;
+  border: 1px solid #999;
+}
+td.mat-cell, td.mat-footer-cell, th.mat-header-cell{
+  border: 1px solid #666;
+  text-align: center;
+}
+tr.mat-footer-row, tr.mat-row{
+  height: 35px;
+}
+tr.mat-header-row {
+  height: 40px;
+}
+.example-card {
+  max-width: 100%;
+}
+.mat-card-header-text{
+  min-width: 200px;
+}
+.cardleft{
+  width: 30%
+}
+.cardright{
+  width: 80%;
+  min-width:250px;
+}
+.fontbig{
+  font-size: 32px;
+}
+.bgorange{
+  color: #ff3300;
+}
+.mat-row:hover {
+  background-color: rgba(212, 236, 168, 0.774);
+}
+@media only screen and (max-width: 600px) {
+  .responsivetable{
+      max-width: 400px;
+      overflow-x: scroll;
+  }
+}
